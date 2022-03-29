@@ -87,6 +87,197 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+ /***Base Header - Footer Styles***/
+
+header,
+footer {
+
+}
+
+/***Header Styles***/
+
+header {
+
+} 
+
+header .content-wrapper {
+
+}
+
+header img {
+
+}
+
+header .header-divider {
+
+}
+
+header nav {
+
+}
+
+header nav ul {
+
+}
+
+header nav ul li {
+
+}
+
+/***mobile homepage styles***/
+
+.hero-area {
+
+}
+
+main .content-wrapper {
+
+}
+
+aside {
+
+}
+
+aside .content-wrapper {
+
+}
+
+aside .form-description {
+
+}
+
+aside .form {
+
+}
+
+.features {
+
+}
+
+.features .content-wrapper {
+
+}
+
+.features .features-items {
+
+}
+
+.features article {
+
+}
+
+.features img {
+
+}
+
+.features .features-items-description {
+
+}
+
+.reviews {
+
+}
+
+.reviews .content-wrapper {
+
+}
+
+.reviews article {
+
+}
+
+.reviews img {
+
+}
+
+/***about page mobile styles***/
+
+.mission {
+
+}
+
+.mission .content-wrapper {
+
+}
+
+.mission .content-wrapper .mission-content {
+
+}
+
+.map {
+
+}
+
+.map figure {
+
+}
+
+.contact-section {
+
+}
+
+.contact-section .content-wrapper {
+
+}
+
+.contact-section .content-wrapper .general-info {
+
+}
+
+.contact-section .content-wrapper .facilitator-contact {
+
+}
+
+/**faq page mobile styles**/
+.faq {
+
+}
+
+.faq .content-wrapper {
+
+}
+
+.faq .content-wrapper .faq-content {
+
+}
+
+.faq .content-wrapper .faq-content article {
+
+}
+
+.faq .content-wrapper .faq-content .faq-question {
+
+}
+
+.faq .content-wrapper .faq-content .faq-answer {
+  
+}
+
+/***footer styles**/
+
+footer .content-wrapper {
+
+}
+
+footer .footer-content {
+
+}
+
+footer .contact {
+
+}
+
+footer .social {
+
+}
+
+footer .social-icons {
+
+}
+
+footer .copyright {
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

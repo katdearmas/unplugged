@@ -101,7 +101,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 5px solid red;
+  outline: 5px solid red;
 }
 
 header {
@@ -114,7 +114,7 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
-  border: 5px solid red;
+  outline: 5px solid red;
 }
 
 header img {
@@ -133,14 +133,14 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
-  border: 5px solid red;
+  outline: 5px solid red;
 }
 
 header nav ul {
   display: flex;
  justify-content: space-around;
  width: 100%;
- border: 5px solid red;
+ outline: 5px solid red;
 }
 
 header nav ul li {
@@ -171,13 +171,13 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 5px solid red;
+  outline: 5px solid red;
 }
 
 footer .social-icons p {
   display: flex;  
   justify-content: space-around;
-  border: 5px solid red;  
+  outline: 5px solid red;  
 }
 
 footer p {
@@ -203,7 +203,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  border: 5px solid red;
+  outline: 5px solid red;
 }
 
 main .hero-area .content-wrapper {
@@ -221,14 +221,14 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 5px solid red;
+  outline: 5px solid red;
 }
 
 aside .content-wrapper {
   display: flex;
   flex-direction: column;
   width: 85%;
-  border: 5px solid red;
+  outline: 5px solid red;
 }
 
 aside h3 {
@@ -251,7 +251,7 @@ aside .form {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  border: 5px solid red;
+  outline: 5px solid red;
 }
 
 .features .content-wrapper {
@@ -272,7 +272,7 @@ aside .form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 5px solid red;
+  outline: 5px solid red;
 }
 
 .features p {
@@ -293,7 +293,7 @@ aside .form {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  border: 5px solid red;
+  outline: 5px solid red;
 }
 
 .reviews .content-wrapper {
@@ -326,7 +326,7 @@ aside .form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 5px solid red;
+  outline: 5px solid red;
 }
 
 .mission .content-wrapper {
@@ -349,7 +349,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-flow: row wrap;
-border: 5px solid red;
+outline: 5px solid red;
 }
 
 .contact p {
@@ -374,7 +374,7 @@ border: 5px solid red;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 5px solid red;
+  outline: 5px solid red;
 }
 
 .faq .content-wrapper {
@@ -383,7 +383,7 @@ border: 5px solid red;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 5px solid red;
+  outline: 5px solid red;
 }
 
 .faq h2 {
@@ -498,16 +498,14 @@ border: 5px solid red;
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /**tablet styles here**/
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media only screen and min-with: 1200px) {
+  /**desktop styles here**/
 }
+
 
 /* ==========================================================================
    Print styles.

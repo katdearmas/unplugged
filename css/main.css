@@ -362,20 +362,8 @@ aside .form {
   margin-bottom: 40px;
 }
 
-.faq-content {
+.faq article {
   margin-bottom: 50px;
-}
-
-.faq .content-wrapper .faq-content {
-}
-
-.faq .content-wrapper .faq-content article {
-}
-
-.faq .content-wrapper .faq-content .faq-question {
-}
-
-.faq .content-wrapper .faq-content .faq-answer {
 }
 
 /* ==========================================================================
@@ -588,21 +576,90 @@ aside .form {
 
   /*faq page*/
 
+  header {
+    padding: 15px 0;
+  }
+
   .faq .content-wrapper {
     justify-content: space-between;
   }
 
   .faq-content {
-    flex-basis: 40%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .faq article {
+    width: 45%;
   }
 
   .faq h2 {
     width: 100%;
   }
+
+  .faq p {
+    font-weight: normal;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   /**desktop styles here**/
+  /* General styles */
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  /* Header */
+
+  /* Hero Area */
+
+  .hero-area h1 {
+    width: 665px;
+  }
+  /* Aside */
+  aside .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /* Features */
+
+  .features h2 {
+    width: 91.6666%;
+  }
+
+  .features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-basis: 33.3333%;
+  }
+
+  /* Reviews */
+
+  .reviews article div {
+    width: 42%;
+  }
+
+  /*about page*/
+
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 91.6666%;
+  }
+
+  /*faq page*/
+
+  .faq h2 {
+    width: 100%;
+  }
 }
 
 /* ==========================================================================

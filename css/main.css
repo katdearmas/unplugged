@@ -97,6 +97,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   text-align: left;
+  background-color: #202322;
 }
 
 ul,
@@ -186,7 +187,9 @@ header nav ul {
   width: 100%;
 }
 
-header nav ul li {
+header nav ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 footer {
@@ -198,6 +201,7 @@ footer .footer-content {
 
 footer .contact h4 {
   padding: 50px 0;
+  color: #ffffff;
 }
 
 footer .social {
@@ -205,6 +209,7 @@ footer .social {
 
 footer .social h4 {
   padding: 20px;
+  color: #ffffff;
 }
 
 footer .social-icons {
@@ -220,6 +225,8 @@ footer .social-icons p {
 
 footer p {
   margin: 0;
+  color: #ffffff;
+  font-size: 0.875em;
 }
 
 footer .content-wrapper {
@@ -249,6 +256,10 @@ main .hero-area .content-wrapper {
 
 main h1 {
   padding: 120px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.25em;
+  color: #e2e3ed;
+  font-weight: lighter;
 }
 
 /**aside**/
@@ -258,6 +269,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 aside .content-wrapper {
@@ -268,6 +280,8 @@ aside .content-wrapper {
 
 aside h3 {
   padding: 25px 0;
+  color: #e2e3ed;
+  font-weight: normal;
 }
 
 aside .form-description {
@@ -275,9 +289,37 @@ aside .form-description {
   align-items: center;
 }
 
+aside p {
+  color: #e2e3ed;
+}
+
 aside .form {
   justify-content: left;
   align-items: center;
+  margin-top: 30px;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type="button"] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /**features**/
@@ -294,6 +336,10 @@ aside .form {
 
 .features h2 {
   margin-bottom: 60px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.875em;
+  font-weight: lighter;
+  color: #e2e3ed;
 }
 
 .features article {
@@ -309,7 +355,10 @@ aside .form {
 }
 
 .features p {
+  color: #e1e2ea;
   margin: 0;
+  font-size: 0.875em;
+  font-weight: lighter;
 }
 
 .features-items img {
@@ -325,6 +374,7 @@ aside .form {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews .content-wrapper {
@@ -332,11 +382,16 @@ aside .form {
 
 .reviews h2 {
   margin-bottom: 40px;
+  font-size: 1.875em;
+  color: #e2e3ed;
 }
 
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  font-weight: lighter;
 }
 
 .reviews article {
@@ -344,6 +399,9 @@ aside .form {
 
 .reviews p {
   padding: 45px 0px;
+  color: #e2e3ed;
+  font-size: 0.875em;
+  line-height: 1.125em;
 }
 
 .reviews img {

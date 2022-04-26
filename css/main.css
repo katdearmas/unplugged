@@ -130,9 +130,11 @@ p {
 }
 
 img {
+  width: 100%;
 }
 
 figure {
+  margin: 0;
 }
 
 address {
@@ -167,7 +169,12 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
-header img {
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -262,6 +269,10 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #333;
+  background-image: url("../img/jake-melara-30679-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 main .hero-area .content-wrapper {
@@ -341,6 +352,11 @@ input[type="button"] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #333;
+  background-image: url("../img/rawpixel-800820-unsplash1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .features .content-wrapper {
@@ -606,6 +622,7 @@ h3 {
   /**tablet styles here**/
 
   /* General styles */
+
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
@@ -631,12 +648,13 @@ h3 {
 
   header .content-wrapper {
     width: 100%;
-    /*display: flex;*/
     justify-content: space-between;
+    display: flex;
+    flex-direction: row;
   }
 
   header figure {
-    width: 30%;
+    width: 34.375%;
   }
 
   header nav {
@@ -645,8 +663,8 @@ h3 {
 
   header nav ul {
     justify-content: space-between;
-    /*display: flex;
-    width: 100%;*/
+    display: flex;
+    width: 100%;
   }
 
   .header-divider {
@@ -812,6 +830,10 @@ h3 {
     padding: 15px 0;
   }
 
+  header figure {
+    width: 29.7916%;
+  }
+
   h2 {
     font-size: 2.25em;
   }
@@ -867,6 +889,9 @@ h3 {
     padding-bottom: 50px;
   }
 
+  .reviews article {
+    flex-direction: row;
+  }
   .reviews article div {
     width: 42%;
   }

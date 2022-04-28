@@ -94,10 +94,10 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
   font-size: 1em;
-  text-align: left;
+  font-family: "Open Sans", sans-serif;
   color: #e2e3ed;
+  text-align: left;
 }
 
 ul,
@@ -112,16 +112,16 @@ a {
 
 h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 1.875em;
   font-weight: 500;
+  font-size: 1.875em;
 }
 
 h3,
 h4 {
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
   font-size: 1.125em;
   margin: 20px 0;
-  font-weight: 500;
 }
 
 p {
@@ -150,11 +150,11 @@ address {
 
 header,
 footer {
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #202322;
 }
 
 header {
@@ -210,28 +210,16 @@ footer {
   flex-direction: column;
 }
 
-footer .footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+footer p {
+  margin: 0;
 }
 
-footer h4 {
-  font-weight: lighter;
-  font-size: 1.125em;
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
-
-footer .contact h4 {
-  padding: 50px 0;
-  color: #ffffff;
-}
-
-footer .social {
-}
-
-footer .social h4 {
-  padding: 20px;
-  color: #ffffff;
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -246,19 +234,6 @@ footer .social-icons p {
   align-items: center;
 }
 
-footer p {
-  margin: 0;
-}
-
-footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
-}
-
-footer .contact {
-  margin-bottom: 50px;
-}
-
 footer .copyright {
   margin: 20px 0;
 }
@@ -266,17 +241,14 @@ footer .copyright {
 /***mobile homepage styles***/
 
 .hero-area {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
   background-color: #333;
   background-image: url("../img/jake-melara-30679-unsplash.jpg");
   background-size: cover;
   background-position: center;
-}
-
-main .hero-area .content-wrapper {
-  width: 85%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .hero-area h1 {
@@ -284,7 +256,6 @@ main .hero-area .content-wrapper {
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  padding: 120px 0;
 }
 
 /**aside**/
@@ -296,30 +267,8 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
-aside .content-wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 85%;
-}
-
-aside h3 {
-  padding: 25px 0;
-  color: #e2e3ed;
-  font-weight: normal;
-}
-
-aside .form-description {
-  justify-content: left;
-  align-items: center;
-}
-
-aside p {
-  color: #e2e3ed;
-}
 
 aside .form {
-  justify-content: left;
-  align-items: center;
   margin-top: 30px;
 }
 
@@ -341,7 +290,6 @@ input[type="button"] {
   font-size: 1.125em;
   color: #e2e3ed;
   border: none;
-
   text-align: center;
   text-transform: uppercase;
 }
@@ -349,14 +297,17 @@ input[type="button"] {
 /**features**/
 
 .features {
+  background-color: #333;
+  background-image: url("../img/rawpixel-800820-unsplash1.jpg");
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-color: #333;
-  background-image: url("../img/rawpixel-800820-unsplash1.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+
+.features h2 {
+  margin-bottom: 60px;
 }
 
 .features .content-wrapper {
@@ -365,9 +316,6 @@ input[type="button"] {
 
 .features h2 {
   margin-bottom: 60px;
-
-  /*font-size: 1.875em;
-  font-weight: lighter;*/
 }
 
 .features article {
@@ -385,12 +333,9 @@ input[type="button"] {
 .features p {
   text-align: center;
   margin: 0;
-  /*font-size: 0.875em;
-  font-weight: lighter;*/
 }
 
 .features-items img {
-  padding: 35px 0;
 }
 
 .features .features-items-description {
@@ -411,25 +356,14 @@ input[type="button"] {
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
-  /*font-size: 1.875em;*/
 }
 
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
-  /*font-size: 1.125em;
-  color: #e2e3ed;
-  font-weight: lighter;*/
 }
 
 .reviews article {
-}
-
-.reviews p {
-  padding: 45px 0px;
-  color: #e2e3ed;
-  font-size: 0.875em;
-  line-height: 1.125em;
 }
 
 .reviews img {
@@ -445,24 +379,6 @@ input[type="button"] {
   flex-flow: row wrap;
 }
 
-.mission .content-wrapper {
-}
-
-.mission h2 {
-  font-weight: lighter;
-}
-
-.mission .content-wrapper .mission-content p {
-  line-height: 1.125em;
-  font-size: 0.875em;
-}
-
-.map {
-}
-
-.map figure {
-}
-
 .contact-section {
   background-color: #2a423a;
   display: flex;
@@ -471,13 +387,23 @@ input[type="button"] {
   flex-flow: row wrap;
 }
 
-/*.contact-section h2,
-h3 {
-  font-weight: lighter;
-}*/
-
-.contact p {
+.contact-content p {
   margin: 0;
+}
+
+.mission .content-wrapper {
+}
+
+.mission h2 {
+}
+
+.mission .content-wrapper .mission-content p {
+}
+
+.map {
+}
+
+.map figure {
 }
 
 .contact-section .content-wrapper {
@@ -507,27 +433,12 @@ h3 {
   flex-flow: row wrap;
 }
 
-.faq h2 {
-  margin-bottom: 40px;
-  /*font-weight: lighter;
-  font-size: 1.875em;*/
-  line-height: 1;
-}
-
-.faq article {
+.faq-content {
   margin-bottom: 50px;
-  color: #e2e3ed;
 }
 
-.faq h4 {
-  font-weight: lighter;
-  font-size: 1.125em;
-  line-height: 1.5em;
-}
-
-/*.faq p {
-  font-size: 0.875em;
-  line-height: 1.125em;
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 /* ==========================================================================
@@ -628,14 +539,6 @@ h3 {
     margin: 100px 0;
   }
 
-  /* Header */
-
-  header {
-    display: flex;
-    justify-content: space-around;
-    padding: 33px 0;
-  }
-
   h2 {
     font-size: 2.25em;
     line-height: 1.333;
@@ -646,15 +549,20 @@ h3 {
     line-height: 1.25;
   }
 
+  /* Header */
+
+  header {
+    justify-content: space-around;
+    padding: 33px 0;
+  }
+
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
-    display: flex;
-    flex-direction: row;
   }
 
   header figure {
-    width: 34.375%;
+    width: 30%;
   }
 
   header nav {
@@ -663,8 +571,6 @@ h3 {
 
   header nav ul {
     justify-content: space-between;
-    display: flex;
-    width: 100%;
   }
 
   .header-divider {
@@ -694,9 +600,11 @@ h3 {
   }
 
   /* Features */
+
   .features h2 {
     margin-bottom: 20px;
   }
+
   .features article {
     display: flex;
     justify-content: center;
@@ -719,6 +627,7 @@ h3 {
     width: 85%;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
@@ -729,6 +638,7 @@ h3 {
   }
 
   /* Footer */
+
   footer .content-wrapper {
     width: 65%;
     margin: 100px 0;
@@ -738,7 +648,6 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*may need to remove this flex direction if layout gets wonky*/
     flex-direction: row;
   }
 
@@ -788,21 +697,11 @@ h3 {
 
   /*faq page*/
 
-  header {
-    padding: 15px 0;
-  }
-
   .faq .content-wrapper {
     justify-content: space-between;
   }
 
   .faq-content {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
-
-  .faq article {
     flex-basis: 45%;
   }
 
@@ -830,10 +729,6 @@ h3 {
     padding: 15px 0;
   }
 
-  header figure {
-    width: 29.7916%;
-  }
-
   h2 {
     font-size: 2.25em;
   }
@@ -851,8 +746,8 @@ h3 {
   /* Hero Area */
 
   .hero-area h1 {
-    width: 60%;
     font-size: 3.75em;
+    width: 80%;
   }
 
   /* Aside */
@@ -876,24 +771,17 @@ h3 {
   }
 
   .features article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
     flex-basis: 33.3333%;
   }
 
   /* Reviews */
 
-  .reviews h2 {
-    padding-bottom: 50px;
-  }
-
-  .reviews article {
-    flex-direction: row;
-  }
   .reviews article div {
     width: 42%;
+  }
+
+  .reviews h2 {
+    padding-bottom: 50px;
   }
 
   footer h4 {
